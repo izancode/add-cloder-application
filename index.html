@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add closer application</title>
+    <script>
+        function add_closer()
+        {
+            var a=document.getElementById("page")
+            var b=document.getElementById("add")
+            var a=document.getElementById("cross")
+            a.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+        }
+    </script>
+</head>
+<style>
+    div{
+        width: 720px;
+        height: 480px;
+        position: relative;
+        top: 15%;
+        left: 25%;
+    }
+    button{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+</style>
+
+<body>
+    <div id="page">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/gRtjOvOVDfoVkeT2NDU5s56bk2I=/fit-in/1072x0/filters:focal(2016x1512:2017x1513)/https://tf-cmsv2-photocontest-smithsonianmag-prod-approved.s3.amazonaws.com/6f0ed09d-0d5d-410a-8146-88f6a8eb4740.jpg"  width="720" height="480" id="add">
+        <button id="cross" onclick="add_closer()">X</button>
+    </div>
+</body>
+</html>
